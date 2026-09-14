@@ -1,0 +1,28 @@
+{
+  "validUser": {
+    "name": "Test Automation User",
+    "email": "test.automation.user@example.com",
+    "password": "Test@1234"
+  },
+  "invalidLoginAttempts": [
+    {
+      "scenario": "wrong password",
+      "email": "test.automation.user@example.com",
+      "password": "WrongPass123"
+    },
+    {
+      "scenario": "unregistered email",
+      "email": "no.such.user@example.com",
+      "password": "Test@1234"
+    },
+    {
+      "scenario": "empty password",
+      "email": "test.automation.user@example.com",
+      "password": ""
+    }
+  ],
+  "newSignupUser": {
+    "name": "New Cucumber User",
+    "email": "new.cucumber.user@example.com"
+  }
+}

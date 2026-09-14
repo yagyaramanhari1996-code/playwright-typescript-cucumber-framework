@@ -1,0 +1,11 @@
+{
+  "searchTerms": [
+    { "term": "Top", "expectedMinResults": 1 },
+    { "term": "Dress", "expectedMinResults": 1 },
+    { "term": "Jeans", "expectedMinResults": 1 }
+  ],
+  "productsToAddToCart": [
+    { "index": 0, "name": "Blue Top" },
+    { "index": 1, "name": "Men Tshirt" }
+  ]
+}
