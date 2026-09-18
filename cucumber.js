@@ -20,6 +20,7 @@ const REPORTS = [
   '--format pretty',
   '--format json:reports/cucumber-report.json',
   '--format html:reports/cucumber-report.html',
+  '--format allure-cucumberjs/reporter',
 ].join(' ');
 
 const ALLURE_FORMAT = '--format allure-cucumberjs/reporter';
