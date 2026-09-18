@@ -161,3 +161,9 @@ The framework automates common e-commerce workflows including:
         ├── env.ts                    # Typed environment loader
         ├── logger.ts                 # Structured logger
         └── test-data.ts              # Typed JSON data loaders
+
+## 👤 Author
+
+**Yagyaraman M**
+
+QA Automation Engineer | Playwright | TypeScript | Cucumber | API Testing
